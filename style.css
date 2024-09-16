@@ -1,0 +1,188 @@
+
+body {
+        background-image: url('https://image.tmdb.org/t/p/original/xuFNUGqEJ4cKNR7eKCowhDruhSd.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #000000;
+
+}
+header {
+    color: #050094;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+section, article {
+    background-color: #f5eaf492;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.381);
+    color: #000000;
+}
+
+h1 {
+    color: #143de3;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    
+}
+
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1em;
+    
+}
+
+ul li strong {
+   
+}
+
+
+h3 {
+    font-size: 1.3em;
+   
+    margin-top: 10px;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #ced9de;
+    color: rgba(255, 255, 255, 0);
+    margin-top: 15px;
+    
+   
+}
+
+
+div {
+    background-color: #e1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.403);
+    width: 755px;
+   
+}
+
+h3, p, ul {
+    margin: 0 0 15px 0;
+    color: #000000;
+}
+.like-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-align: center;   
+    
+}
+
+.like-count {
+    margin-left: 10px; 
+    font-size: 18px;
+    font-weight: bold; 
+}
+.side-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.image-side {
+    position: absolute;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.536);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.381);
+    
+}
+
+.image-side h2 {
+    font-size: 1.2em;
+    color: #050094;
+    margin-bottom: 10px;
+    
+    
+}
+
+.image-side img {
+    width: 100%;
+    height: 215px;
+    border-radius: 5px;
+    height: 220px;
+    padding: 1px;
+
+}
+
+#estado-civil {
+    top: 100px;
+    left: 10px;
+    margin: 60px;
+
+}
+
+#familia {
+    top: 300px;
+    right:1040px;
+    margin: 190px;
+}
+
+#pluto {
+    top: 755px;
+    left: 10px;
+    margin: 60px;
+}
+
+#coco {
+    top: 150px;
+    right: 60px;
+    margin: 10px;
+}
+
+#lassie {
+    top: 480px;
+    right: 60px;
+    margin: 10px;
+}
+
+#blondy {
+    top: 810px;
+    right: 60px;
+    margin: 10px;
+}
+#gif{
+    top: 1200px;
+    right: 60px;
+    margin: 10px;
+}
+.anecdotas{
+    padding: 5px 25px;
+}
+h2{
+    color: #e314e3;
+}
