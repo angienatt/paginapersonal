@@ -186,3 +186,100 @@ h3, p, ul {
 h2{
     color: #e314e3;
 }
+.quiz-section {
+    background-color: #f1d3f7; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    max-width: 550px; 
+    margin-right: 500px;
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+
+
+.input-box {
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 600px; 
+}
+
+.input-box label {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.input-box input {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+    
+}
+
+.submit-btn {
+    background-color: #8f60a7; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #d1a7c8; 
+}
+
+/* Tabla de puntajes */
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.score-table th,
+.score-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.score-table th {
+    background-color: #d1a7c8; 
+    color: white;
+}
+
+.score-table td {
+    background-color: #f9f9f9;
+}
+
+
+footer {
+    background-color: #8f60a7; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-right: 600px;
+}
+.div.class {
+    background-color: #e1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.403);
+    width: 755px;
+    
+
+}

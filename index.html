@@ -51,7 +51,7 @@
         <span class="like-count" id="likeCount">0</span>
      
      <footer>
-        <p>&copy; 2024 - Angie Almeida. Todos los derechos reservados.</p>
+        <p>&copy; 202 - Angie Almeida. Todos los derechos reservados.</p>
      </footer>
 
      <div class="image-side" id="estado-civil">
@@ -82,8 +82,70 @@
     <div class="image-side" id="gif">
         <img src="violetta gif.gif" alt="Animación divertida" width="300" height="200">
     </div>
+     
+    <div class="quiz-section">
+        <h3>¿Qué tanto me conoces?</h3>
+        <div class="input-box">
+            <label for="name">Ingresa tu nombre:</label>
+            <input type="text" id="name" placeholder="Tu nombre">
+        </div>
+        <button class="submit-btn" onclick="startQuiz()">Iniciar Quiz</button>
 
-   
+        <div id="quiz-container" style="display: none;">
+            <form id="quiz-form">
+                <div class="quiz-question">
+                    <label>1. ¿Cuál es mi color favorito?</label>
+                    <label><input type="radio" name="q1" value="Morado"> Morado</label>
+                    <label><input type="radio" name="q1" value="rojo"> Rojo</label>
+                    <label><input type="radio" name="q1" value="azul"> Azul</label>
+                </div>
+                <div class="quiz-question">
+                    <label>2. ¿Qué animal me gusta más?</label>
+                    <label><input type="radio" name="q2" value="Perros"> Perros</label>
+                    <label><input type="radio" name="q2" value="Gatos"> Gatos</label>
+                    <label><input type="radio" name="q2" value="Los dos"> Los dos</label>
+                </div>
+                <div class="quiz-question">
+                    <label>3. ¿Cuál es mi hobby favorito?</label>
+                    <label><input type="radio" name="q3" value="Cocinar"> Cocinar</label>
+                    <label><input type="radio" name="q3" value="Leer"> Leer</label>
+                    <label><input type="radio" name="q3" value="cantar"> Cantar</label>
+                </div>
+                <div class="quiz-question">
+                    <label>4. ¿Qué clima prefiero?</label>
+                    <label><input type="radio" name="q4" value="Frio"> Frio</label>
+                    <label><input type="radio" name="q4" value="Calor"> Calor</label>
+                </div>
+                <div class="quiz-question">
+                    <label>5. ¿Cuantas mascotas he tenido?</label>
+                    <label><input type="radio" name="q5" value="3"> 3</label>
+                    <label><input type="radio" name="q5" value="2"> 2</label>
+                    <label><input type="radio" name="q5" value="4"> 4</label>
+                </div>
+                <div class="quiz-question">
+                    <label>6. ¿Cuál es mi comida favorita?</label>
+                    <label><input type="radio" name="q6" value="pizza"> Pizza</label>
+                    <label><input type="radio" name="q6" value="sushi"> Sushi</label>
+                    <label><input type="radio" name="q6" value="hamburguesa"> Hamburguesa</label>
+                </div>
+                <button type="button" class="submit-btn" onclick="submitQuiz()">Enviar respuestas</button>
+            </form>
+        </div>
+
+        <div id="score-table-container" style="display: none;">
+            <h4>Puntajes más altos:</h4>
+            <table class="score-table" id="score-table">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Puntaje</th>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
